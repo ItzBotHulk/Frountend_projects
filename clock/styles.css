@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #463636;
+}
+
+.txt {
+    font-size: 10vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.date {
+    background-color: rgb(108, 124, 166);
+    font-size: 24px;
+}
+.clock {
+    background-color: rgb(195, 169, 42);
+    margin: 40px;
+    font-size: 48px;
+}
