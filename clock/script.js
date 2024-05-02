@@ -21,9 +21,5 @@ function updateClock() {
     document.getElementById('clock').textContent = timeString;
     document.getElementById('date').textContent = dateString;
 }
-
-// Update the clock every second
 setInterval(updateClock, 1000);
-
-// Update the clock immediately
 updateClock();
