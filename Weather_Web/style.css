@@ -19,7 +19,9 @@ body {
     text-align: center;
 }
 
-h2, label, p {
+h2,
+label,
+p {
     color: #1b1212;
     margin: 8px 0;
 }
@@ -33,8 +35,8 @@ input {
     margin-top: 20px;
 }
 
- button {
-    background-color: #4CAF50;  
+button {
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -68,7 +70,7 @@ button:hover::before {
 button:hover {
     transition: transform 0.5s ease;
     transform: scale(1.1);
-} 
+}
 
 #temp-div p {
     font-size: 60px;
@@ -95,7 +97,7 @@ button:hover {
     justify-content: space-between;
 }
 
-.hourly-item{
+.hourly-item {
     flex: 0 0 auto;
     width: 80px;
     display: flex;
@@ -105,14 +107,13 @@ button:hover {
     color: white;
 }
 
-.hourly-item img{
+.hourly-item img {
     width: 30px;
     height: 30px;
     margin-bottom: 5px;
 }
 
-#hourly-heading{
+#hourly-heading {
     color: white;
     margin-top: 10px;
 }
-
